@@ -16,7 +16,7 @@ Tested on Windows or macOS, but should also work on linux systems.
 This tiny frame work has been tested on MNIST(handwritten digits) dataset by LeCun.
 
 ## Performance of Multi-layer Neural Networks
-Get 95% accuracy by 5 epoch, with hyperparameters:\
+Get 95% accuracy by 5 epoch, with hyperparameters:
 - learning rate: 1.0
 - hidden layers: one hidden layer with 256 units
 - mini batch size: 256
@@ -24,7 +24,7 @@ Get 95% accuracy by 5 epoch, with hyperparameters:\
 - adam optimizer: disabled
 
 ## Performance of Convolutional Neural Networks
-Get 99% accuracy by 3 epoch, with hyperparameters:\
+Get 99% accuracy by 3 epoch, with hyperparameters:
 - learning rate: 0.005
 - convolution layers: one convolution layer with 8 convolution filters, size 3, stride 1, no padding
 - pooling layers: one max pooling layer with size 2, stride 2
