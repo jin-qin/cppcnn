@@ -15,7 +15,7 @@ Tested on Windows or macOS, but should also work on linux systems.
 # Test and verification
 This tiny frame work has been tested on MNIST(handwritten digits) dataset by LeCun.
 1. make sure there are 4 files named `train-images.idx3-ubyte` `train-labels.idx1-ubyte` `t10k-images.idx3-ubyte` `t10k-labels.idx1-ubyte` in the `data/mnist` path. Dataset can be downloaded from [here](http://yann.lecun.com/exdb/mnist/).
-2. after build, if you are on macOS, run `./cppcnn`, then it will load MNIST dataset and after 1-3 hours on CPU, it will give the test results.
+2. after build, if you are on macOS, run `./cppcnn` in `build` folder, then it will load MNIST dataset and after 1-3 hours on CPU, it will give the test results.
 
 ## Performance of Multi-layer Neural Networks
 Get 95% accuracy by 5 epoch, with hyperparameters:
