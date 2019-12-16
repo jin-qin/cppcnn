@@ -26,8 +26,8 @@ Get 95% accuracy by 5 epoch, with hyperparameters:
 ## Performance of Convolutional Neural Networks
 Get 98% accuracy by 3 epoch, with hyperparameters:
 - learning rate: 0.005
-- convolution layers: one convolution layer with 8 convolution filters, size 3, stride 1, no padding
-- pooling layers: one max pooling layer with size 2, stride 2
+- convolution layers: one convolution layer with `8 convolution filters`, `size 3`, `stride 1`, `no padding`
+- pooling layers: one max pooling layer with `size 2`, `stride 2`
 - hidden layers: two hidden layer with 32 and 16 units
 - mini batch size: 1
 - momentum SGD: disabled
