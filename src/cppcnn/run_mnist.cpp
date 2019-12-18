@@ -14,10 +14,10 @@ int main() {
 	/* inputs matrix: [n * m], m is the pixels number of one image, n is the number of examples.
 	 * labels matrix: [m * 1], m is the number of labels.
 	 */
-    auto train_inputs = util::read_mnist("../../../data/mnist/train-images.idx3-ubyte", 
-										 "../../../data/mnist/train-labels.idx1-ubyte");
-	auto test_inputs = util::read_mnist("../../../data/mnist/t10k-images.idx3-ubyte",
-										"../../../data/mnist/t10k-labels.idx1-ubyte");
+    auto train_inputs = util::read_mnist("../../data/mnist/train-images.idx3-ubyte", 
+										 "../../data/mnist/train-labels.idx1-ubyte");
+	auto test_inputs = util::read_mnist("../../data/mnist/t10k-images.idx3-ubyte",
+										"../../data/mnist/t10k-labels.idx1-ubyte");
 
 	auto cnn = make_shared<CppCNN>();
 	cnn->set_enable_momentum(false);
