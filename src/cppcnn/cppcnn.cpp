@@ -15,12 +15,12 @@ CppCNN::~CppCNN() {
 }
 
 void CppCNN::add_conv_layer(int f, int nf, int p, int s) {
-	auto p_conv = make_shared<LayerConv>(weak_from_this(), f, nf, p, s);
+	auto p_conv = make_shared<LayerConv>(shared_from_this(), f, nf, p, s);
 	__layers.push_back(p_conv);
 }
 
 void CppCNN::add_max_pool_layer(int f, int s) {
-	auto p_pool = make_shared<LayerPool>(weak_from_this(), f, LayerPool::PoolMethod::MAX, s);
+	auto p_pool = make_shared<LayerPool>(shared_from_this(), f, LayerPool::PoolMethod::MAX, s);
 	__layers.push_back(p_pool);
 }
 
