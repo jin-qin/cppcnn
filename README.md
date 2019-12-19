@@ -36,6 +36,7 @@ Get 98% accuracy by 3 epoch, with hyperparameters:
 - adam optimizer: disabled
 
 # TO DO
+- [ ] Fix pooling layer bug for odd case.
 - [ ] Implement `Momentum SGD` and `Adam Optimizer` in CNN class.
 - [ ] Provide average pooling layer.
 - [ ] Provide GPU acceleration.
