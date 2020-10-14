@@ -1,5 +1,5 @@
 # CPPCNN
-A tiny framework of convolutional nerual networks with C++ implementation. You can add arbitrary number of convolutional layers, max pooling layers and hidden layers to construct your own convolutional neural networks.
+A tiny framework of convolutional neural networks with C++ implementation. You can add arbitrary number of convolutional layers, max pooling layers and hidden layers to construct your own convolutional neural networks.
 
 This framework contains a sub neural network framework which is multi-layer neural network, you can also use it as CNNs to construct your own multi-layer neural netowrk.
 
